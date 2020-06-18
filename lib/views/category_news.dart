@@ -60,6 +60,7 @@ class _CategoryNewsState extends State<CategoryNews> {
               child: Container(child: CircularProgressIndicator()),
             )
           : SingleChildScrollView(
+            padding: EdgeInsets.symmetric(horizontal: 16),
               child: Container(
                 child: Column(
                   children: <Widget>[
